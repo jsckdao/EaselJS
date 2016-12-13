@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};
+var createjs = this.createjs = this.createjs||{};
 
 /**
  * @class Utility Methods
