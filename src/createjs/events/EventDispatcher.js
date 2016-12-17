@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	"use strict";
@@ -421,4 +421,4 @@ this.createjs = this.createjs||{};;
 
 
 	createjs.EventDispatcher = EventDispatcher;
-}(this.createjs));
+}(createjs));

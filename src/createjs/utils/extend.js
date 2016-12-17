@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+var createjs = module.exports = {};
 
 /**
  * @class Utility Methods
@@ -55,7 +55,7 @@ this.createjs = this.createjs||{};;
  * @param {Function} superclass The superclass to extend.
  * @return {Function} Returns the subclass's new prototype.
  */
-this.createjs.extend = function(subclass, superclass) {
+createjs.extend = function(subclass, superclass) {
 	"use strict";
 
 	function o() { this.constructor = subclass; }

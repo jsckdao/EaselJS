@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function() {
 	"use strict";
@@ -551,4 +551,4 @@ this.createjs = this.createjs||{};;
 
 
 	createjs.SpriteSheetBuilder = createjs.promote(SpriteSheetBuilder, "EventDispatcher");
-}(this.createjs));
+}(createjs));

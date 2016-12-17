@@ -31,7 +31,7 @@
 */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	
@@ -212,4 +212,4 @@ this.createjs = this.createjs||{};;
 
 	
 	createjs.Bitmap = createjs.promote(Bitmap, "DisplayObject");
-}(this.createjs));
+}(createjs));

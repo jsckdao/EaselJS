@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	"use strict";
@@ -118,4 +118,4 @@ this.createjs = this.createjs||{};;
 
 
 	createjs.ColorMatrixFilter = createjs.promote(ColorMatrixFilter, "Filter");
-}(this.createjs));
+}(createjs));

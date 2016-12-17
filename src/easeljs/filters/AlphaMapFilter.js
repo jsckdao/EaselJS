@@ -31,9 +31,8 @@
  */
 
 // namespace:
-this.createjs = this.createjs || {};
 
-(function () {
+(function (createjs) {
 	"use strict";
 	
 	
@@ -165,4 +164,4 @@ this.createjs = this.createjs || {};
 
 
 	createjs.AlphaMapFilter = createjs.promote(AlphaMapFilter, "Filter");
-}(this.createjs));
+}(createjs));

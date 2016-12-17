@@ -33,7 +33,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	"use strict";
@@ -351,4 +351,4 @@ this.createjs = this.createjs||{};;
 	};
 
 	createjs.BlurFilter = createjs.promote(BlurFilter, "Filter");
-}(this.createjs));
+}(createjs));

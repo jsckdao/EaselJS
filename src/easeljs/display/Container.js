@@ -27,7 +27,7 @@
 */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	"use strict";
@@ -687,4 +687,4 @@ this.createjs = this.createjs||{};;
 
 
 	createjs.Container = createjs.promote(Container, "DisplayObject");
-}(this.createjs));
+}(createjs));

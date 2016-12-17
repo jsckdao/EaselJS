@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 /**
  * @class Utility Methods
@@ -48,7 +48,7 @@ this.createjs = this.createjs||{};;
  * @param searchElement Element to find in array.
  * @return {Number} The first index of searchElement in array.
  */
-this.createjs.indexOf = function (array, searchElement){
+createjs.indexOf = function (array, searchElement){
 	"use strict";
 
 	for (var i = 0,l=array.length; i < l; i++) {

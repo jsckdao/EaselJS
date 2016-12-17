@@ -31,7 +31,7 @@
  */
 
 // namespace:
-this.createjs = this.createjs||{};;
+
 
 (function(createjs) {
 	"use strict";
@@ -153,4 +153,4 @@ this.createjs = this.createjs||{};;
 
 
 	createjs.Filter = Filter;
-}(this.createjs));
+}(createjs));

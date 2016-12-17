@@ -1,7 +1,6 @@
 /**
  * @module EaselJS
  */
-this.createjs = this.createjs || {};
 
 (function(createjs) {
 	"use strict";
@@ -29,4 +28,4 @@ this.createjs = this.createjs || {};
 	 **/
 	s.buildDate = /*=date*/""; // injected by build process
 
-})();
+})(createjs);

@@ -26,9 +26,8 @@
 * OTHER DEALINGS IN THE SOFTWARE.
 */
 
-this.createjs = this.createjs || {};
 
-(function () {
+(function (createjs) {
 	"use strict";
 
 
@@ -340,4 +339,4 @@ this.createjs = this.createjs || {};
 
 
 	createjs.BitmapText = createjs.promote(BitmapText, "Container");
-}(this.createjs));
+}(createjs));
