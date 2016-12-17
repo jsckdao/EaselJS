@@ -165,4 +165,4 @@ this.createjs = this.createjs || {};
 
 
 	createjs.AlphaMapFilter = createjs.promote(AlphaMapFilter, "Filter");
-}());
+}(this.createjs));

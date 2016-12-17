@@ -31,9 +31,9 @@
  */
 
 // namespace:
-var createjs = this.createjs = this.createjs||{};
+this.createjs = this.createjs||{};;
 
-(function() {
+(function(createjs) {
 	"use strict";
 
 
@@ -702,4 +702,4 @@ var createjs = this.createjs = this.createjs||{};
 		return (ratio == 1 ? endValues[prop] : startValues[prop]);
 	};
 
-}());
+}(this.createjs));

@@ -31,9 +31,9 @@
 */
 
 // namespace:
-var createjs = this.createjs = this.createjs||{};
+this.createjs = this.createjs||{};;
 
-(function() {
+(function(createjs) {
 	
 	/**
 	 * A Bitmap represents an Image, Canvas, or Video in the display list. A Bitmap can be instantiated using an existing
@@ -212,4 +212,4 @@ var createjs = this.createjs = this.createjs||{};
 
 	
 	createjs.Bitmap = createjs.promote(Bitmap, "DisplayObject");
-}());
+}(this.createjs));

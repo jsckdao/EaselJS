@@ -39,9 +39,9 @@
  */
 
 // namespace:
-var createjs = this.createjs = this.createjs||{};
+this.createjs = this.createjs||{};;
 
-(function() {
+(function(createjs) {
 	"use strict";
 
 // constructor:
@@ -260,4 +260,4 @@ var createjs = this.createjs = this.createjs||{};
 	};
 
 	createjs.Event = Event;
-}());
+}(this.createjs));

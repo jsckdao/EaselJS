@@ -31,9 +31,9 @@
  */
 
 // namespace:
-var createjs = this.createjs = this.createjs||{};
+this.createjs = this.createjs||{};;
 
-(function() {
+(function(createjs) {
 	"use strict";
 
 
@@ -247,4 +247,4 @@ var createjs = this.createjs = this.createjs||{};
 	
 	
 	createjs.Rectangle = Rectangle;
-}());
+}(this.createjs));

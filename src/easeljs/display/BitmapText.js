@@ -340,4 +340,4 @@ this.createjs = this.createjs || {};
 
 
 	createjs.BitmapText = createjs.promote(BitmapText, "Container");
-}());
+}(this.createjs));

@@ -31,9 +31,9 @@
  */
 
 // namespace:
-var createjs = this.createjs = this.createjs||{};
+this.createjs = this.createjs||{};;
 
-(function() {
+(function(createjs) {
 	"use strict";
 
 
@@ -541,4 +541,4 @@ var createjs = this.createjs = this.createjs||{};
 
 
 	createjs.Matrix2D = Matrix2D;
-}());
+}(this.createjs));

@@ -131,4 +131,4 @@ this.createjs = this.createjs || {};
 
 
 	createjs.AlphaMaskFilter = createjs.promote(AlphaMaskFilter, "Filter");
-}());
+}(this.createjs));

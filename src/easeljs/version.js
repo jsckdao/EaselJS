@@ -3,7 +3,7 @@
  */
 this.createjs = this.createjs || {};
 
-(function() {
+(function(createjs) {
 	"use strict";
 
 	/**
