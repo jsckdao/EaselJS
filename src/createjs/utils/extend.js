@@ -55,7 +55,7 @@ this.createjs = this.createjs||{};;
  * @param {Function} superclass The superclass to extend.
  * @return {Function} Returns the subclass's new prototype.
  */
-createjs.extend = function(subclass, superclass) {
+this.createjs.extend = function(subclass, superclass) {
 	"use strict";
 
 	function o() { this.constructor = subclass; }
